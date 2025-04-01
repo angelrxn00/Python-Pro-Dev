@@ -6,7 +6,7 @@ def take_notes():
     with open("notes.txt", 'a') as notes:
         print("Write here: ")
         body = input(">>> ")
-        notes.write(body)
+        notes.write(body + "\n")
 
 
 def main():
